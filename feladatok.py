@@ -24,4 +24,36 @@ def feladat2_szamolas(lista):
             db+=1
         i+=1
     return db
+
+def feladat3(text,N):
+    i:int=0
+    hossz:int=0
+    if N>len(text):
+       print("Nincs N karakter!")
+    else:
+        print(text[N-1].upper() * 3)
+
+
+
+
+
+def feladat4():
+    szov=[]
+    s=szov
+    szoveg:str=""
+    while szoveg !="@":
+        szoveg=input("Ajd meg egy nevet!(Kilépés a @-jellel!)")
+        szov.append(szoveg)
+        if szoveg!="@":
+            print(szoveg)
+    print(f"A használó {szov} adott meg!")
+    
+    
+    
+
+
+    
+
+
+
     

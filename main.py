@@ -13,4 +13,6 @@ print("Hármas Feladat")
 
 feladatok.feladat3("Ez az én dumám!", 4)
 
-#feladatok.feladat4()
+print("Négyes feladat")
+
+feladatok.feladat4() 

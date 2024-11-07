@@ -33,10 +33,6 @@ def feladat3(text,N):
     else:
         print(text[N-1].upper() * 3)
 
-
-
-
-
 def feladat4():
     szov=[]
     s=szov
